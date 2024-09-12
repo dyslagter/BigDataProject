@@ -29,5 +29,3 @@ for message in consumer:
     es.index(index=es_index, body=document)
 
 print("Finished consuming messages and indexing to Elasticsearch.")
-
-
